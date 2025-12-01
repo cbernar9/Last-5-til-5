@@ -72,6 +72,7 @@ p {
     flex-direction: column;
     justify-content: flex-start;
     width: 100% 100% 100%;
+    text-align: center;
 }
 .year {
     font-size: 2rem;
@@ -148,6 +149,7 @@ footer {
 .flow {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 section {
     margin-left: 2em;
@@ -163,12 +165,43 @@ section {
 
 .text-content {
     flex: 1;
-    text-align: left;
+    text-align: center;
 }
-
+body.page-2024 .content-wrapper {
+    font-size: 1.8rem;
+    color: #2d3748;
+}
+body.page-2024 .text-content p {
+    font-size: 1.8rem;
+    color: #2d3748;
+}
+body.page-2023 .content-wrapper {
+    font-size: 1.8rem;
+    color: #a87b0a;
+}
+body.page-2023 .text-content p {
+    font-size: 1.8rem;
+    color: #a87b0a;
+}
+body.page-2021 .content-wrapper {
+    font-size: 1.8rem;
+    color: #bd0808;
+}
+body.page-2021 .text-content p {
+    font-size: 1.8rem;
+    color: #bd0808;
+}
+body.page-2020 .content-wrapper {
+    font-size: 1.8rem;
+    color: #2670f0;
+}
+body.page-2020 .text-content p {
+    font-size: 1.8rem;
+    color: #2670f0;
+}
 #pennstate {
-    height: 400px;
-    width: 600px;
+    height: 700px;
+    width: 550px;
     background-image: url(PennState.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,6 +235,30 @@ section {
     shape-outside: margin-box;
     background-color: transparent;
 }
+#UW2021 {
+    height: 500px;
+    width: 400px;
+    background-image: url(UW2021.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    float: right;
+    margin: 0 0 1rem 2rem;
+    shape-outside: margin-box;
+    background-color: transparent;
+}
+#UK2020 {
+    height: 500px;
+    width: 700px;
+    background-image: url(UK2020.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    float: right;
+    margin: 0 0 1rem 2rem;
+    shape-outside: margin-box;
+    background-color: transparent;
+}
 p {
     font-size: 1rem;
     text-align: left;
@@ -211,6 +268,263 @@ p {
 }
 .text-content p {
     font-size: 1.8rem;
+}
+.header-2023 {
+    background-color: #a87b0a;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+.header-main-2023 {
+    background-color: #a87b0a;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+nav-2023 {
+    background-color: #a87b0a;
+    padding: 1rem 0;
+}
+nav-2023 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    font-size: 2rem;
+    background-color: #513b02;
+}
+nav-2023 a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav-2023 a:hover {
+    color: #a87b0a;
+}
+body.page-2023 header,
+body.page-2023 nav {
+    background-color: #a87b0a;
+}
+body.page-2023 footer {
+    background-color: #513b02;
+}
+body.page-2023 .footer-links a:hover {
+    color: #a87b0a;
+}
+.header-main-2021 {
+    background-color: #bd0808;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+nav-2021 {
+    background-color: #bd0808;
+    padding: 1rem 0;
+}
+nav-2021 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    font-size: 2rem;
+    background-color: #470303;
+}
+nav-2021 a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav-2021 a:hover {
+    color: #bd0808;
+}
+body.page-2021 header,
+body.page-2021 nav {
+    background-color: #bd0808;
+}
+body.page-2021 footer {
+    background-color: #470303;
+}
+body.page-2021 .footer-links a:hover {
+    color: #bd0808;
+}
+.header-main-2020 {
+    background-color: #2670f0;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+nav-2020 {
+    background-color: #2670f0;
+    padding: 1rem 0;
+}
+nav-2020 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    font-size: 2rem;
+    background-color: #1b097f;
+}
+nav-2020 a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav-2020 a:hover {
+    color: #2670f0;
+}
+body.page-2020 header,
+body.page-2020 nav {
+    background-color: #2670f0;
+}
+body.page-2020 footer {
+    background-color: #1b097f;
+}
+body.page-2020 .footer-links a:hover {
+    color: #2670f0;
+}
+.stats-chart {
+    margin: 2rem auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+.chart-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #2d3748;
+}
+body.page-2023 .chart-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #a87b0a;
+}
+body.page-2021 .chart-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #bd0808;
+}
+body.page-2020 .chart-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #2670f0;
+}
+.stats-chart table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stats-chart th {
+    background-color: #1a365d;
+    color: white;
+    padding: 0.75rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.stats-chart tr:last-child {
+    border: 2px solid #1a365d;
+    box-shadow: 2px 2px 2px 2px #1a365d;
+}
+body.page-2023 .stats-chart th {
+    background-color: #a87b0a;
+    color: white;
+    padding: 0.75rem;
+    font-weight: bold;
+}
+body.page-2023 .stats-chart tr:last-child {
+    border: 2px solid #a87b0a;
+    box-shadow: 2px 2px 2px 2px #a87b0a;
+}
+body.page-2021 .stats-chart th {
+    background-color: #bd0808;
+    color: white;
+    padding: 0.75rem;
+    font-weight: bold;
+}
+body.page-2021 .stats-chart tr:last-child {
+    border: 2px solid #bd0808;
+    box-shadow: 2px 2px 2px 2px #bd0808;
+}
+body.page-2020 .stats-chart th {
+    background-color: #2670f0;
+    color: white;
+    padding: 0.75rem;
+    font-weight: bold;
+}
+body.page-2020 .stats-chart tr:last-child {
+    border: 2px solid #2670f0;
+    box-shadow: 2px 2px 2px 2px #2670f0;
+}
+.stats-chart td {
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0;
+    font-size: 1.2rem;
+}
+
+.stats-chart tr:nth-child(even) {
+    background-color: #f7fafc;
+}
+
+.stats-chart tr:hover {
+    background-color: #edf2f7;
+}
+.champions-history-chart {
+    margin: 2rem 0;
+    max-width: 100%;
+    overflow-x: auto;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.champions-history-chart table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 0.85rem;
+}
+
+.champions-history-chart th {
+    background-color: #1a365d;
+    color: white;
+    padding: 0.75rem;
+    font-weight: bold;
+    text-align: left;
+    position: sticky;
+    top: 0;
+}
+
+.champions-history-chart td {
+    padding: 0.6rem;
+    border: 1px solid #e2e8f0;
+}
+
+.champions-history-chart tr:nth-child(even) {
+    background-color: #f7fafc;
+}
+
+.champions-history-chart tr:hover {
+    background-color: #edf2f7;
+}
+.footnote {
+    font-size: 3rem;
+    text-align: center;
+    color: #f50b0b;
+    margin-top: 5rem;
+}
+@media (max-width: 768px) {
+    .champions-history-chart {
+        font-size: 0.75rem;
+    }
+    
+    .champions-history-chart th,
+    .champions-history-chart td {
+        padding: 0.4rem;
+    }
 }
 @media (max-width: 768px) {
     .content-wrapper {
@@ -230,6 +544,12 @@ p {
         margin: 0 auto 1rem auto;
     }
     #UT2022 {
+        order: -1;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto 1rem auto;
+    }
+    #UW2021 {
         order: -1;
         width: 100%;
         max-width: 300px;
